@@ -1,0 +1,72 @@
+<template name="Browse_Books_Page">
+
+  <div class="ui middle aligned centered grid">
+
+    <br>
+    <div class="row">
+      <div class="nine wide column">
+        <br><br><h1>LIST OF BOOKS AVAILABLE</h1><br><hr>
+      </div>
+    </div>
+
+    <div class="row">
+    <div class="three wide column">
+      <img src="/images/141.png" style="max-width: 100px;"/>
+    </div>
+    <div class="nine wide column">
+      <h2 align="left">DISCRETE MATHEMATICS AND ITS APPLICATION</h2>
+      <p>AUTHOR: ROSEN</p>
+      <p>CLASS: ICS 141 / ICS 241</p>
+      <a class="{{ isActiveRoute 'Book_Check_Page'}} item" href="{{ pathFor 'Book_Check_Page' }}">Check Availability</a>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="three wide column">
+      <img src="/images/211.png" style="max-width: 100px;"/>
+    </div>
+    <div class="nine wide column">
+      <h2 align="left">DATA STRUCTURES ABSTRACTIONS AND DESIGN USING JAVA</h2>
+      <p>AUTHOR: KOFFMAN</p>
+      <p>CLASS: ICS 211</p>
+      <a class="{{ isActiveRoute 'Book_Check_Page'}} item" href="{{ pathFor 'Book_Check_Page' }}">Check Availability</a>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="three wide column">
+      <img src="/images/311.png" style="max-width: 100px; height: 150px"/>
+    </div>
+    <div class="nine wide column">
+      <h2 align="left">INTRODUCTION TO ALGORITHMS</h2>
+      <p>AUTHOR: CORMEN</p>
+      <p>CLASS: ICS 311</p>
+      <a class="{{ isActiveRoute 'Book_Check_Page'}} item" href="{{ pathFor 'Book_Check_Page' }}">Check Availability</a>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="three wide column">
+      <img src="/images/313.png" style="max-width: 100px;"/>
+    </div>
+    <div class="nine wide column">
+      <h2 align="left">LAND OF LISP</h2>
+      <p>AUTHOR: BARSKI</p>
+      <p>CLASS: ICS 313</p>
+      <a class="{{ isActiveRoute 'Book_Check_Page'}} item" href="{{ pathFor 'Book_Check_Page' }}">Check Availability</a>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="three wide column">
+      <img src="/images/313_2.png" style="max-width: 100px;"/>
+    </div>
+    <div class="nine wide column">
+      <h2 align="left">PROGRAMMING LANGUAGE PRAGMATICS</h2>
+      <p>AUTHOR: SCOTT</p>
+      <p>CLASS: ICS 313</p>
+      <a class="{{ isActiveRoute 'Book_Check_Page'}} item" href="{{ pathFor 'Book_Check_Page' }}">Check Availability</a>
+    </div>
+    </div>
+  </div>
+</template>
